@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andradina Tech | Software House</title>
+    <meta name="description"
+        content="Andradina Tech: Sua Software House em Andradina e região. Transformamos suas ideias em soluções digitais inovadoras, criando sites, aplicativos e sistemas sob medida.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Elements for Premium Look -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Header / Nav -->
+    <header id="header">
+        <div class="container nav-wrapper">
+            <a href="#" class="logo">
+                <span class="logo-text">Andradina<span class="accent">Tech</span></span>
+            </a>
+
+            <nav class="desktop-nav">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#aplicativos">Aplicativos</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato" class="btn btn-outline">Fale Conosco</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-menu-btn" aria-label="Abrir menu" id="mobile-btn">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Nav -->
+        <nav class="mobile-nav" id="mobile-nav">
+            <ul class="nav-links-mobile">
+                <li><a href="#inicio" class="mobile-link">Início</a></li>
+                <li><a href="#servicos" class="mobile-link">Serviços</a></li>
+                <li><a href="#aplicativos" class="mobile-link">Aplicativos</a></li>
+                <li><a href="#sobre" class="mobile-link">Sobre Nós</a></li>
+                <li><a href="#contato" class="btn btn-primary w-full mobile-link">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <div class="hero-badge">Inovação local. Impacto global.</div>
+                    <h1 class="hero-title">Transformando <span class="accent-gradient">Ideias</span> em Software.</h1>
+                    <p class="hero-subtitle">Somos a Software House de Andradina, SP, construindo plataformas incríveis,
+                        modernas e feitas sob medida para impulsionar o seu negócio.</p>
+                    <div class="hero-buttons">
+                        <a href="#contato" class="btn btn-primary btn-lg">Começar um Projeto</a>
+                        <a href="#servicos" class="btn btn-ghost btn-lg">Nossas Soluções <i
+                                class="ph ph-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="hero-graphic reveal">
+                    <!-- Placeholder premium element to represent tech -->
+                    <div class="glass-card element-graphic">
+                        <div class="code-mockup">
+                            <div class="mockup-header">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="mockup-body">
+                                <code><span class="keyword">const</span> <span class="variable">empresa</span> = <span class="string">"Andradina Tech"</span>;</code>
+                                <code><span class="keyword">function</span> <span class="function">inobar</span>() {</code>
+                                <code>  <span class="keyword">return</span> <span class="string">"Sucesso!"</span>;</code>
+                                <code>}</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicos" class="services section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Nossos <span class="accent">Serviços</span></h2>
+                    <p class="section-desc">Tecnologia de ponta entregue com excelência para resolver problemas reais.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card glass-card reveal">
+                        <div class="icon-box">
+                            <i class="ph ph-browser"></i>
+                        </div>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Websites institucionais, e-commerces, e landing pages otimizadas para conversão e alta
+                            performance.</p>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card glass-card reveal" style="transition-delay: 0.1s;">
+                        <div class="icon-box">
+                            <i class="ph ph-device-mobile"></i>
+                        </div>
+                        <h3>Aplicativos Mobile</h3>
+                        <p>Desenvolvimento com design espetacular e experiências fluídas para seus usuários.</p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card glass-card reveal" style="transition-delay: 0.2s;">
+                        <div class="icon-box">
+                            <i class="ph ph-code"></i>
+                        </div>
+                        <h3>Sistemas Customizados</h3>
+                        <p>Softwares gerenciais e plataformas exclusivas focadas em escalar a operação da sua empresa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apps Section -->
+        <section id="aplicativos" class="services section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Nossos <span class="accent">Aplicativos</span></h2>
+                    <p class="section-desc">Conheça nossos aplicativos gratuitos próprios, desenvolvidos para facilitar
+                        o dia a
+                        dia</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- App 1 -->
+                    <div class="service-card glass-card reveal">
+                        <div class="icon-box" style="background: rgba(0, 255, 136, 0.1); color: #00ff88;">
+                            <i class="ph ph-calculator"></i>
+                        </div>
+                        <h3>Calculadora de custos</h3>
+                        <p>Aplicativo simples para calcular os custos do seu produto e assim precificar de forma mais
+                            fácil.</p>
+                        <a href="#" class="btn btn-ghost" style="margin-top: 1rem; padding-left: 0;">Abrir <i
+                                class="ph ph-download-simple"></i></a>
+                    </div>
+
+                    <!-- App 2 -->
+                    <div class="service-card glass-card reveal" style="transition-delay: 0.1s;">
+                        <div class="icon-box" style="background: rgba(255, 0, 128, 0.1); color: #ff0080;">
+                            <i class="ph ph-calculator"></i>
+                        </div>
+                        <h3>Em breve</h3>
+                        <p>Em breve</p>
+                        <a href="#" class="btn btn-ghost" style="margin-top: 1rem; padding-left: 0;">Abrir <i
+                                class="ph ph-download-simple"></i></a>
+                    </div>
+
+                    <!-- App 3 -->
+                    <div class="service-card glass-card reveal" style="transition-delay: 0.2s;">
+                        <div class="icon-box" style="background: rgba(255, 191, 0, 0.1); color: #ffbf00;">
+                            <i class="ph ph-list-numbers"></i>
+                        </div>
+                        <h3>Em breve</h3>
+                        <p>Em breve</p>
+                        <a href="#" class="btn btn-ghost" style="margin-top: 1rem; padding-left: 0;">Abrir <i
+                                class="ph ph-download-simple"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre" class="about section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image reveal">
+                        <div class="about-glass glass-card">
+                            <div class="stat-item">
+                                <i class="ph ph-map-pin"></i>
+                                <h4>Com orgulho, baseados em<br><span class="accent">Andradina, SP</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-content reveal">
+                        <h2 class="section-title">Tecnologia ao <span class="accent-gradient">Sua Alcance</span></h2>
+                        <p>Nascemos em Andradina com o propósito de democratizar o acesso ao desenvolvimento de software
+                            de altíssimo nível. Na <strong>Andradina Tech</strong>, acreditamos que sua empresa não
+                            precisa estar nos grandes centros para ter soluções digitais classe mundial.</p>
+                        <p>Do design de interface até código robusto, estamos aqui, na sua região, para sermos os
+                            parceiros ideais na sua transformação digital.</p>
+                        <ul class="feature-list">
+                            <li><i class="ph ph-check-circle accent"></i> Código Moderno & Escalável</li>
+                            <li><i class="ph ph-check-circle accent"></i> Design Centrado no Usuário</li>
+                            <li><i class="ph ph-check-circle accent"></i> Atendimento Próximo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA / Contact -->
+        <section id="contato" class="contact section">
+            <div class="container">
+                <div class="contact-card glass-card border-glow reveal">
+                    <h2 class="section-title text-center">Vamos tirar o projeto do papel?</h2>
+                    <p class="section-desc text-center">Agende um bate-papo sem compromisso com nossa equipe.</p>
+                    <div class="contact-actions">
+                        <a href="mailto:albertoribeiroalfredo@gmail.com" target="_blank"
+                            class="btn btn-primary btn-lg"><i class="ph ph-envelope-simple"></i> Enviar E-mail</a>
+                        <a href="https://wa.me/5518996145924" target="_blank" class="btn btn-outline btn-lg"><i
+                                class="ph ph-whatsapp-logo"></i> WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">Andradina<span class="accent">Tech</span></a>
+                <p>A software house que impulsiona o interior de São Paulo a níveis globais.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#aplicativos">Aplicativos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Conecte-se</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p>&copy; 2026 Andradina Tech. Todos os direitos reservados. Localizado em Andradina, SP.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
